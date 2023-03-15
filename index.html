@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>mynifs</title>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- bs css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar end -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand d-block d-lg-none" href="#">
+            <img src="./assets/img/logo.png" alt="mynifs logo" />
+          </a>
+          <button
+            class="navbar-toggler text-white shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </span>
+          </button>
+          <div
+            class="collapse justify-content-center navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 menu_items align-items-center">
+              <a class="navbar-brand d-none d-lg-block" href="#">
+                <img src="./assets/img/logo.png" alt="mynifs logo" />
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cause Vous-Même</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">abonnement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nous Contacter </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+            </ul>
+            <span class="text-white px-3 d-none d-md-block">|</span>
+            <div
+              class="nav_item d-flex align-items-center justify-content-between justify-content-md-start gap-2"
+            >
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle text-white text-uppercase"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  fr
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Something</a></li>
+                  <li><a class="dropdown-item" href="#">lorem ipsum</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something</a>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="user_icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <div class="container section_4">
+        <h1 class="nav_title">Parrainage</h1>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <!-- Mynisf quoi -->
+      <section class="quoi_section pt-3 d-none d-md-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center h2 f_bold pb-4">Mynisf c'est quoi</h1>
+            </div>
+          </div>
+          <div class="row gap-4 gap-md-0">
+            <div class="col-md-4 col-12">
+              <div class="quoi_main_card">
+                <div class="quoi_card">
+                  <img class="img-fluid" src="./assets/img/3.jpg" alt="img" />
+                </div>
+                <h5>Visio</h5>
+                <p>Champs texte</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="quoi_main_card">
+                <div class="quoi_card">
+                  <img class="img-fluid" src="./assets/img/2.jpg" alt="img" />
+                </div>
+                <h5>Visio</h5>
+                <p>Champs texte</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="quoi_main_card">
+                <div class="quoi_card">
+                  <img class="img-fluid" src="./assets/img/1.jpg" alt="img" />
+                </div>
+                <h5>Visio</h5>
+                <p>Champs texte</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pourquoi d-block d-md-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center h2 f_bold bottom_20">Mynisf c'est quoi</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="swiper slider_pourquoi">
+              <div class="swiper-wrapper my-5">
+                <div class="swiper-slide h-auto d-flex justify-content-center">
+                  <div class="card border-0">
+                   <div class="inner_img_slider">
+                    <img
+                    src="./assets/img/3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                   </div>
+                    <h5 class="text-center mb-0 mt-3">Visio</h5>
+                    <p class="text-center mb-0">Champs texte</p>
+                  </div>
+                </div>
+                <div class="swiper-slide h-auto d-flex justify-content-center">
+                  <div class="card border-0">
+                   <div class="inner_img_slider">
+                    <img
+                    src="./assets/img/2.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                   </div>
+                    <h5 class="text-center mb-0 mt-3">Visio</h5>
+                    <p class="text-center mb-0">Champs texte</p>
+                  </div>
+                </div>
+                <div class="swiper-slide h-auto d-flex justify-content-center">
+                  <div class="card border-0">
+                   <div class="inner_img_slider">
+                    <img
+                    src="./assets/img/1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                   </div>
+                    <h5 class="text-center mb-0 mt-3">Visio</h5>
+                    <p class="text-center mb-0">Champs texte</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Mynisf quoi end -->
+
+      <!-- co_pad -->
+      <section class="co_pad d-block d-md-none">
+        <div class="container mb-4">
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <ul
+                class="slider_foter list-unstyled d-flex gap-sm-3 justify-content-center"
+              >
+                <li class="d-flex align-items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M7.493 18.75c-.425 0-.82-.236-.975-.632A7.48 7.48 0 016 15.375c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75 2.25 2.25 0 012.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23h-.777zM2.331 10.977a11.969 11.969 0 00-.831 4.398 12 12 0 00.52 3.507c.26.85 1.084 1.368 1.973 1.368H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 01-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227z"
+                    />
+                  </svg>
+
+                  Sérieux
+                </li>
+                <li>|</li>
+                <li class="d-flex align-items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 2.25a.75.75 0 01.75.75v.756a49.106 49.106 0 019.152 1 .75.75 0 01-.152 1.485h-1.918l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 0118.75 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 01-.262 1.453h-8.37a.75.75 0 01-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 01-.375.84A6.723 6.723 0 015.25 18a6.723 6.723 0 01-3.181-.795.75.75 0 01-.375-.84L4.168 6.241H2.25a.75.75 0 01-.152-1.485 49.105 49.105 0 019.152-1V3a.75.75 0 01.75-.75zm4.878 13.543l1.872-7.662 1.872 7.662h-3.744zm-9.756 0L5.25 8.131l-1.872 7.662h3.744z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+
+                  Ethique
+                </li>
+                <li>|</li>
+                <li class="d-flex align-items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+                    /></svg
+                  >Sécurisé
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- co_pad -->
+
+      <!-- Forcement section -->
+      <section class="forcement">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center h2 f_bold mb-0">
+                Forcement un profil qui vous corresponds
+              </h1>
+              <p class="text-center f_14 pt-1">
+                Forcement un profil qui vous corresponds
+              </p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper mb-5">
+                <div class="swiper-slide text-center">
+                  <img
+                    class="img-fluid res_slider_img"
+                    src="./assets/img/sldier1.png"
+                    alt="slider img"
+                  />
+                </div>
+                <div class="swiper-slide text-center">
+                  <img
+                    class="img-fluid res_slider_img"
+                    src="./assets/img/sldier1.png"
+                    alt="slider img"
+                  />
+                </div>
+                <div class="swiper-slide text-center">
+                  <img
+                    class="img-fluid res_slider_img"
+                    src="./assets/img/sldier1.png"
+                    alt="slider img"
+                  />
+                </div>
+              </div>
+              <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+              </div>
+              <div class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Forcement section end -->
+
+      <!-- vous -->
+      <section class="vous">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center h2 f_bold pb-4 pt-5">
+                Ne vous cherchez plus d'excuses
+              </h1>
+            </div>
+          </div>
+          <div class="grid_templete">
+            <div class="vous_card">
+              <img src="./assets/img/icon1.png" alt="icon 1" />
+              <h6 class="pt-2">Tous les âges</h6>
+            </div>
+            <div class="vous_card">
+              <img src="./assets/img/icon2.png" alt="icon 1" />
+              <h6 class="pt-2">Toute origine</h6>
+            </div>
+            <div class="vous_card">
+              <img src="./assets/img/icon3.png" alt="icon 1" />
+              <h6 class="pt-2">Toute région</h6>
+            </div>
+            <div class="vous_card">
+              <img src="./assets/img/icon4.png" alt="icon 1" />
+              <h6 class="pt-2">Toute classe sociale</h6>
+            </div>
+            <div class="vous_card">
+              <img src="./assets/img/icon5.png" alt="icon 1" />
+              <h6 class="pt-2">Des centaines de mariages</h6>
+            </div>
+            <div class="vous_card">
+              <img src="./assets/img/icon6.png" alt="icon 1" />
+              <h6 class="pt-2">Des bébés</h6>
+            </div>
+          </div>
+          <div class="row">
+            <a class="vous_btn" href="#">Il ne manque que vous !</a>
+          </div>
+        </div>
+      </section>
+      <!-- vous -->
+
+      <section class="pt-5 mt-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center h2 f_bold mb-0">
+                A votre tour de faire les Causes
+              </h1>
+              <p class="text-center f_14 pt-1">Champs texte</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- price section -->
+      <section class="price position-relative mt-4">
+        <div
+          class="price_top_img d-flex d-md-none w-100 justify-content-between"
+        >
+          <img class="ms-5" src="./assets/img/women1.png" alt="" />
+          <img class="me-5" src="./assets/img/women2.png" alt="" />
+        </div>
+        <div class="bg_overlay_img"></div>
+        <div class="container">
+          <div class="row">
+            <div class="inner_price my-5 my-md-3 d-flex">
+              <div class="card_cos">
+                <h4>6 mois</h4>
+                <hr />
+                <div class="my-4">
+                  <div class="d-flex gap-3 justify-content-center">
+                    <label class="form-check-label" for="flexSwitchCheckDefault"
+                      >Avec chat</label
+                    >
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input shadow-none chekBox_one"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckDefault"
+                      />
+                    </div>
+                  </div>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <label class="form-check-label" for="flexSwitchCheckChecked"
+                      >Sans chat</label
+                    >
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input shadow-none chekBox_two"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckChecked"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <h2><sup>€</sup>69</h2>
+                <div class="text-center card_btn_parent">
+                  <a href="#">Inscription maintenant</a>
+                </div>
+                <div class="position-relative card_bottom_bg">
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                </div>
+              </div>
+              <div class="card_cos">
+                <h4>12 mois</h4>
+                <hr />
+                <div class="my-4">
+                  <div class="d-flex gap-3 justify-content-center">
+                    <label class="form-check-label" for="flexSwitchCheckDefault"
+                      >Avec chat</label
+                    >
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input shadow-none chekBox_three"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckDefault"
+                      />
+                    </div>
+                  </div>
+                  <div class="d-flex gap-3 justify-content-center">
+                    <label class="form-check-label" for="flexSwitchCheckChecked"
+                      >Sans chat</label
+                    >
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input shadow-none chekBox_four"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckChecked"
+                        checked
+                      />
+                    </div>
+                  </div>
+                </div>
+                <h2><sup>€</sup>99</h2>
+                <div class="text-center card_btn_parent">
+                  <a href="#">Inscription maintenant</a>
+                </div>
+                <div class="position-relative card_bottom_bg">
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                  <img
+                    class="position-absolute top-0 img-fluid"
+                    src="./assets/img/wave.png"
+                    alt="wave"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="large_bg position-relative">
+          <div
+            class="price_top_img_for_large price_top_img d-md-flex d-none w-100 justify-content-between"
+          >
+            <img class="ms-5" src="./assets/img/women1.png" alt="" />
+            <img class="me-5" src="./assets/img/women2.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- price section -->
+
+      <!-- resume -->
+      <section class="resumeSection section_4">
+        <div class="resume_section_main">
+          <div class="container">
+            <div class="row">
+              <div class="resume_top">
+                <h3 class="text-secondary">Résumé</h3>
+                <div class="resume_top_card">
+                  <div class="d-flex justify-content-between">
+                    <span class="text-secondary">Porduit</span>
+                    <span class="text-secondary">Prix</span>
+                  </div>
+                  <hr />
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-column">
+                      <p>
+                        <span class="title_resume_top"
+                          >Abonnement 12 mois Mynisf</span
+                        >
+                        <br />
+                        <span class="color_pink">Avec abonnement Chat</span>
+                        <br />
+  
+                       <div>
+                        <a class="color_red" class="btn btn-primary"
+                        data-bs-toggle="collapse"
+                        href="#collapseExample"
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="collapseExample"
+                          >Vous avez un code promo ?</a>
+                       
+                        <div class="collapse pt-3" id="collapseExample">
+                            <input placeholder="Your promo code" type="text" class="form-control shadow-none">
+                        </div>
+                       </div>
+                      </p>
+                    </div>
+                    <span>€ 99</span>
+
+                  </div>
+                  <hr />
+                  <div class="d-flex justify-content-between">
+                    <span>Totale</span>
+                    <span class="total_price">€ 99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row pt-4">
+              <div class="resume_top">
+                <h3 class="mb-4 title_besume_bottom">
+                  Choisissez votre mode de paiements
+                </h3>
+
+                <form class="resume_top_card">
+                  <div class="d-flex justify-content-between">
+                    <div class="inputGroup">
+                      <input id="card" type="radio" />
+                      <label class="input_label" for="card"
+                        >Carte bancaire</label
+                      >
+                      <p class="pl_4">CB, Visa, MasterCard</p>
+                    </div>
+                    <div class="card_group d-flex gap-3 align-items-center">
+                      <img src="./assets/img/card1.png" alt="card img" />
+                      <img src="./assets/img/card2.png" alt="card img" />
+                      <img src="./assets/img/card3.png" alt="card img" />
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="">
+                    <label for="" class="pt-4 pb-2 special_label"
+                      >NUMÉRO DE CARTE DE CRÉDIT</label
+                    >
+                    <input
+                      type="text"
+                      placeholder="7896 8903 6789 1234"
+                      class="shadow-none form-control"
+                    />
+                  </div>
+                  <div class="d-flex gap-4">
+                    <div class="w-100">
+                      <label for="" class="pt-4 pb-2 d-flex special_label"
+                        >CODE CVV<svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="questionMak"
+                          title="hello there"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z"
+                          />
+                        </svg>
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="666"
+                        class="shadow-none form-control"
+                      />
+                    </div>
+                    <div class="w-100">
+                      <label for="" class="pt-4 pb-2 special_label"
+                        >DATE D'EXPIRATION</label
+                      >
+                      <input
+                        type="text"
+                        placeholder="MM/YY"
+                        class="shadow-none form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="">
+                    <label for="" class="pt-4 pb-2 special_label"
+                      >NOM SUR LA CARTE</label
+                    >
+                    <input
+                      type="text"
+                      placeholder=""
+                      class="shadow-none form-control"
+                    />
+                  </div>
+                  <hr />
+                  <button class="d-block btn_submit">payer 99€</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- resume end -->
+    </main>
+
+    
+
+    <footer>
+      <div class="container mt_3">
+        <div class="row">
+          <div class="col-md-3">
+            <h4 class="text-white f_bold text-uppercase">Nos informations</h4>
+            <ul class="list-unstyled footer_list">
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i> A
+                  propos de nous</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Nous contacter</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Commentaires des clients</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Success Stories</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="text-white f_bold text-uppercase">Mon compte</h4>
+            <ul class="list-unstyled footer_list">
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i
+                  >Gérer votre compte</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i
+                  >Abonnement</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i
+                  >Sécurité et protection
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="text-white f_bold text-uppercase">centre d'aide</h4>
+            <ul class="list-unstyled footer_list">
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  FAQ</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Guide de démarrage rapide</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4 class="text-white f_bold text-uppercase">légal</h4>
+            <ul class="list-unstyled footer_list">
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Mentions légaless</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  CGV</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Politique de cookies
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-12">
+            <hr class="bg-white" style="height: 2px" />
+            <div class="col-md-12">
+              <div class="d-flex justify-content-between">
+                <a class="text-white" href="#"
+                  >© 2022 MyNisf Tous droits réservés.</a
+                >
+                <div class="social_icons">
+                  <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- main js -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        initialSlide: 1,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          clickable: true,
+          el: ".swiper-pagination",
+        },
+      });
+
+
+      var swiper = new Swiper(".slider_pourquoi", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+        },
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+    </script>
+  </body>
+</html>
