@@ -130,12 +130,6 @@ header {
   width: 100px;
 }
 
-@media (max-width: 768px) {
-  .grid_templete {
-    width: auto;
-  }
-}
-
 .vous_btn {
   width: fit-content;
   margin: 0 auto;
@@ -439,6 +433,60 @@ footer {
   color: white;
 }
 
+.responsive_shadow_img {
+  display: none;
+  overflow: hidden;
+}
+
+.slider_pourquoi .card p {
+  font-size: 13px;
+}
+.slider_pourquoi .card h5 {
+  font-size: 16px;
+}
+
+.slider_pourquoi .inner_img_slider {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid #a6076b !important;
+  box-shadow: 0 0 29px 0px black;
+  padding: 4px !important;
+  width: 210px;
+}
+
+.width_210px {
+  width: 210px;
+}
+
+.minus_45px {
+  margin-left: -45px;
+}
+
+.slider_pourquoi .inner_img_slider .card-img-top {
+  border-radius: 0 !important;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.bottom_20 {
+  margin-bottom: -20px;
+}
+
+.slider_pourquoi .swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #ff0198;
+  width: 20px;
+  height: 10px;
+  border-radius: 7px;
+}
+
+@media (max-width: 768px) {
+  .grid_templete {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media (max-width: 426px) {
   .slider_foter li svg {
     width: 25px;
@@ -467,28 +515,55 @@ footer {
   .mt_3 {
     margin-top: 13rem;
   }
+
+  .responsive_shadow_img {
+    margin-bottom: -40px;
+    display: block;
+  }
+
+  .font_small {
+    font-size: 1.2rem;
+  }
+
+  .grid_templete {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .vous_card img {
+    width: 100%;
+  }
+  .vous_card h6 {
+    font-size: 11px;
+  }
+  .vous_card {
+    width: 70px;
+  }
+
+  .mb_3 {
+    padding-bottom: 3rem;
+  }
+
+  .minus_45px {
+    margin-left: -26px;
+  }
 }
 
-.slider_pourquoi .inner_img_slider {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border: 1px solid #000 !important;
-  padding: 4px !important;
+@media (max-width: 376px) {
+  .font_small {
+    font-size: 1rem;
+  }
+  .minus_45px {
+    margin-left: -45px;
+  }
 }
 
-.slider_pourquoi .inner_img_slider .card-img-top {
-  border-radius: 0 !important;
-  box-shadow: 0 0 10px 0 black;
-}
-
-.bottom_20 {
-  margin-bottom: -20px;
-}
-
-.slider_pourquoi .swiper-pagination-bullet-active {
-  opacity: var(--swiper-pagination-bullet-opacity, 1);
-  background: #ff0198;
-  width: 20px;
-  height: 10px;
-  border-radius: 7px;
+@media (max-width: 320px) {
+  .font_small {
+    font-size: 0.9rem;
+  }
+  .minus_45px {
+    margin-left: -62px;
+  }
 }

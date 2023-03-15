@@ -117,7 +117,7 @@
       </nav>
       <!-- navbar end -->
       <div class="container section_4">
-        <h1 class="nav_title">Parrainage</h1>
+        <h1 class="nav_title text-center text-md-start">Parrainage</h1>
       </div>
     </header>
 
@@ -172,7 +172,7 @@
             <div class="swiper slider_pourquoi">
               <div class="swiper-wrapper my-5">
                 <div class="swiper-slide h-auto d-flex justify-content-center">
-                  <div class="card border-0">
+                  <div class="card border-0 minus_45px">
                    <div class="inner_img_slider">
                     <img
                     src="./assets/img/3.jpg"
@@ -180,12 +180,12 @@
                     alt="..."
                   />
                    </div>
-                    <h5 class="text-center mb-0 mt-3">Visio</h5>
-                    <p class="text-center mb-0">Champs texte</p>
+                    <h5 class="text-center mb-0 mt-3 width_210px">Visio</h5>
+                    <p class="text-center mb-0 width_210px">Champs texte</p>
                   </div>
                 </div>
                 <div class="swiper-slide h-auto d-flex justify-content-center">
-                  <div class="card border-0">
+                  <div class="card border-0 minus_45px">
                    <div class="inner_img_slider">
                     <img
                     src="./assets/img/2.jpg"
@@ -193,12 +193,12 @@
                     alt="..."
                   />
                    </div>
-                    <h5 class="text-center mb-0 mt-3">Visio</h5>
-                    <p class="text-center mb-0">Champs texte</p>
+                    <h5 class="text-center mb-0 mt-3 width_210px">Visio</h5>
+                    <p class="text-center mb-0 width_210px">Champs texte</p>
                   </div>
                 </div>
                 <div class="swiper-slide h-auto d-flex justify-content-center">
-                  <div class="card border-0">
+                  <div class="card border-0 minus_45px">
                    <div class="inner_img_slider">
                     <img
                     src="./assets/img/1.jpg"
@@ -206,8 +206,8 @@
                     alt="..."
                   />
                    </div>
-                    <h5 class="text-center mb-0 mt-3">Visio</h5>
-                    <p class="text-center mb-0">Champs texte</p>
+                    <h5 class="text-center mb-0 mt-3 width_210px">Visio</h5>
+                    <p class="text-center mb-0 width_210px">Champs texte</p>
                   </div>
                 </div>
                 
@@ -217,6 +217,9 @@
           </div>
         </div>
       </section>
+      <div class="responsive_shadow_img">
+        <img src="./assets/img/bg_shadow.png" alt="img">
+      </div>
       <!-- Mynisf quoi end -->
 
       <!-- co_pad -->
@@ -284,7 +287,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center h2 f_bold mb-0">
+              <h1 class="text-center h2 f_bold mb-0 font_small">
                 Forcement un profil qui vous corresponds
               </h1>
               <p class="text-center f_14 pt-1">
@@ -377,9 +380,9 @@
 
       <section class="pt-5 mt-3">
         <div class="container">
-          <div class="row">
+          <div class="row mb_3">
             <div class="col-md-12">
-              <h1 class="text-center h2 f_bold mb-0">
+              <h1 class="text-center h2 f_bold font_small mb-0">
                 A votre tour de faire les Causes
               </h1>
               <p class="text-center f_14 pt-1">Champs texte</p>
@@ -830,7 +833,7 @@
 
       var swiper = new Swiper(".slider_pourquoi", {
         slidesPerView: 2,
-        spaceBetween: 30,
+        spaceBetween: 60,
         autoplay: {
           delay: 3000,
         },
@@ -839,6 +842,17 @@
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: {
+          // Customize for viewport widths >= 320px
+          0: {
+            spaceBetween: 140, 
+            slidesPerView: 2,
+          },
+          321:{
+            spaceBetween: 100, 
+            slidesPerView: 2,
+          }
+        }
       });
 
     </script>
